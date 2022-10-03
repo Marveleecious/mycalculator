@@ -70,9 +70,16 @@ function point(){
     // console.log(output)
 }
 
+
 function plus(){
     let output = document.getElementById('output');
     output.value +='+'
+    // console.log(output)
+}
+
+function zeros(){
+    let output = document.getElementById('output');
+    output.value +=0 + 0
     // console.log(output)
 }
 
