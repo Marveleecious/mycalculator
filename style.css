@@ -1,7 +1,7 @@
 #container {
     max-width: 400px;
     margin: 10vh auto auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    box-shadow: 0px 0px 43px 17px rgb(0, 0, 0);
 }
 
 #output {
@@ -29,6 +29,42 @@
     color: beige;
 }
 
+
+#equalto:hover{
+    color: black;
+    background-color: white;
+}
+
 /* #buttons:hover{
     background-color: black;
 } */
+
+#plus:hover{
+    background-color: blue;
+    color: white;
+}
+
+#minus:hover{
+    background-color: blue;
+    color: white;
+}
+
+#multiply:hover{
+    background-color: blue;
+    color: white;
+}
+
+#divide:hover{
+    background-color: blue;
+    color: white;
+}
+
+#square:hover{
+    background-color: blue;
+    color: white;
+}
+
+#percent:hover{
+    background-color: blue;
+    color: white;
+}
