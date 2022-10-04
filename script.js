@@ -8,7 +8,7 @@ function one(){
    if(outputValue == 0){
     output.value = "";
    }
-   output.value += 1
+   output.value +=1
     // console.log(output)
 }
 else{
@@ -17,76 +17,219 @@ else{
 }
 
 function two(){
+
     let output = document.getElementById('output');
-    output.value +=2
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=2
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function three(){
+
     let output = document.getElementById('output');
-    output.value +=3
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=3
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function four(){
+
     let output = document.getElementById('output');
-    output.value +=4
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=4
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function five(){
+
     let output = document.getElementById('output');
-    output.value +=5
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=5
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function six(){
+
     let output = document.getElementById('output');
-    output.value +=6
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=6
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function seven(){
+
     let output = document.getElementById('output');
-    output.value +=7
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=7
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function eight(){
+
     let output = document.getElementById('output');
-    output.value +=8
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=8
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function nine(){
+
     let output = document.getElementById('output');
-    output.value +=9
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=9
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function zero(){
+
     let output = document.getElementById('output');
-    output.value +=0
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +=0
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function percent(){
+
     let output = document.getElementById('output');
-    output.value +='%'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='%'
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function point(){
+
     let output = document.getElementById('output');
-    output.value +='.'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='.'
     // console.log(output)
 }
-
+else{
+    output.value ="Turn On the calculator";
+}
+}
 
 function plus(){
+
     let output = document.getElementById('output');
-    output.value +='+'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='+'
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function onandoff(){
@@ -101,39 +244,116 @@ function onandoff(){
 }
 
 function minus(){
+
     let output = document.getElementById('output');
-    output.value +='-'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='-'
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function multiply(){
+
     let output = document.getElementById('output');
-    output.value +='*'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='*'
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function divide(){
+
     let output = document.getElementById('output');
-    output.value +='/'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='/'
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function square(){
+
     let output = document.getElementById('output');
-    output.value +='**'
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value +='**'
     // console.log(output)
 }
+else{
+    output.value ="Turn On the calculator";
+}
+}
 
-// function removing(){
+// function dele(){
 //     let output = document.getElementById('output');
-//     output.value -=  
+//     let result = output.value
+//     let slicevalue = result.slice(0, -1)
 //     // console.log(output)
 // }
 
+// function clearing(){
+
+//     let output = document.getElementById('output');
+
+// //     let outputValue =  output.value
+// //     if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+// //    if(outputValue == 0){
+// //     output.value = "";
+// //    }
+//    output.value +=''
+//     // console.log(output)
+// }
+// // else{
+// //     output.value ="Turn On the calculator";
+// // }
+// // }
+
 function clearing(){
     let output = document.getElementById('output');
-    output.value = ''
-    // console.log("fgy")
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+        if(outputValue == 0){
+            output.value = "";
+           }
+          output.value = ''
+       // console.log("fgy")
+        }
+
+        else{
+            output.value ="Turn On the calculator";
+        }
 
 }
 
