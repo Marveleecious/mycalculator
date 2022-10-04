@@ -315,12 +315,13 @@ else{
 }
 }
 
-// function dele(){
-//     let output = document.getElementById('output');
-//     let result = output.value
-//     let slicevalue = result.slice(0, -1)
-//     // console.log(output)
-// }
+function del(){
+    let output = document.getElementById('output');
+    let result = output.value
+    let slicevalue = result.slice(0, -1)
+    output.value = slicevalue
+    // console.log(output)
+}
 
 // function clearing(){
 

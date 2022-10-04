@@ -113,9 +113,9 @@
     color: white;
 }
 
-#zeros:hover{
-    background-color: blue;
-    color: white;
+#onoff:hover{
+    color: black;
+    background-color: white;
 }
 
 #zero:hover{
@@ -126,5 +126,25 @@
 #point:hover{
     background-color: blue;
     color: white;
+}
+
+#del{
+    position: relative;
+    left: 367px;
+    height: 60px;
+    /* width: 30px; */
+    background-color: blue;
+    color: beige;
+    
+}
+
+#del:hover{
+    color: black;
+    background-color: white;
+}
+
+#onoff{
+    background-color: blue;
+    color: beige;
 }
 
