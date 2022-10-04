@@ -319,8 +319,19 @@ function del(){
     let output = document.getElementById('output');
     let result = output.value
     let slicevalue = result.slice(0, -1)
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
     output.value = slicevalue
     // console.log(output)
+
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 // function clearing(){
