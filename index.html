@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="container">
-        <input type="text" placeholder="0" id="output">
+        <input type="text"  id="output" value="Off">
         <div id="buttons"> <button id="one" onclick="clearing()">clear</button>
             <button id="percent" onclick="percent()">%</button>
             <!-- <button onclick="removing()">B</button> -->
@@ -27,10 +27,10 @@
             <button id="two" onclick="two()">2</button>
             <button id="three" onclick="three()">3</button>
             <button id="plus" onclick="plus()">+</button>
-            <button id="zeros" onclick="zeros()">00</button>
+            <button id="onoff" onclick="onandoff()">ON/OFF</button>
             <button id="zero" onclick="zero()">0</button>
             <button id="point" onclick="point()">.</button>
-            <button id="equalto" onclick="equalto()">= </button>
+            <button id="equalto" disabled onclick="equalto()">= </button>
 
         </div>
     </input>

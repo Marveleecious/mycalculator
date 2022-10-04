@@ -1,7 +1,19 @@
 function one(){
+
     let output = document.getElementById('output');
-    output.value +=1
+
+    let outputValue =  output.value
+    if( outputValue  !='Off' && outputValue != "Turn On the calculator"){
+
+   if(outputValue == 0){
+    output.value = "";
+   }
+   output.value += 1
     // console.log(output)
+}
+else{
+    output.value ="Turn On the calculator";
+}
 }
 
 function two(){
@@ -77,9 +89,14 @@ function plus(){
     // console.log(output)
 }
 
-function zeros(){
+function onandoff(){
     let output = document.getElementById('output');
-    output.value +=0 + 0
+   var outputValue = output.value;
+    if(outputValue =="Off" || outputValue == "Turn On the calculator"){
+        output.value = 0
+    }else{
+        output.value="Off"
+    }
     // console.log(output)
 }
 
